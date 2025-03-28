@@ -51,7 +51,7 @@ Se han identificado m\'ultiples estrategias de CBE en la literatura\cite{Heemels
 \end{itemize}
 
 \section{Metodología}
-Para realizar el benchmarking, se definieron m\'etricas de evaluaci\'on como el consumo de CPU, el n\'umero de activaciones del controlador y el tiempo de respuesta. Se establecio el siguiente procedimiento:
+Para realizar el benchmarking, se definieron m\'etricas de evaluaci\'on como el consumo de CPU, el n\'umero de activaciones del controlador y el tiempo de respuesta. Se estableci\'o el siguiente procedimiento basado en iteraciones y validaciones experimentales:
 
 \subsection{Procedimiento de Benchmarking}
 \begin{enumerate}
@@ -98,6 +98,7 @@ Los modelos se obtuvieron experimentalmente mediante análisis de respuesta al e
 
 
 \section{Aplicacion del Procedimiento}
+Se asume la existencia previa de un controlador peri\'odico en el sistema de prueba y no se aborda el despliegue del controlador, sino solo la comparaci\'on de estrategias.
 Segun el procedimmiento establecido, los primeros puntos como la revisi\'on, el an\'alisis y selecci\'on son comunes en este tipo de estudios. Los puntos como la generaci\'on del algoritmo representa un reto, puesto que en en base a un entendimiento de la estrategia se abstrae el algoritmo de la estrategia.
 
 El tema de codiseño se realiza mediante m\'etodos computacionales de optimización encontrando los parametros de evento que minimicen el error y la activaci\'on de evento, es decir los parametros de evento seleccionados son los que hacen minimo el error y menor n\'umero de activaciones.
@@ -222,8 +223,12 @@ Los resultados obtenidos, sintetizados en la Tabla~\ref{tabla:estrategias}, indi
 
 En términos de respuesta dinámica, las estrategias CBE lograron mantener tiempos de establecimiento y sobrepicos similares a los del CP, como se muestra en la figura \ref{fig:figura4}, validando su viabilidad en aplicaciones industriales que requieren estabilidad y precisión. La Figura~\ref{fig:figura1} ilustra la comparación de los instantes de activación de control entre el CP y el CBE mostrando que el CBE solo se activa ante la ocurrerencia de un evento pero con el mismo nivel de funcionamiento que el control periodico.
 
+Se han identificado diferencias entre simulación e implementación que inicialmente dificultaron la validación de resultados. Sin embargo, la incorporación de modelos de saturación y zona muerta permitió que los resultados físicos y simulados converjan de manera más efectiva.
 
 Los resultados confirman que las estrategias de CBE pueden reducir significativamente el consumo de recursos sin comprometer la estabilidad del sistema.
+Como parte del procedimiento de benchmarking desarrollado, se realizó una comparación sistemática de las estrategias CBE mediante la evaluación de métricas clave como el tiempo sin activación y el incremento en tiempo con activación. La Tabla \ref{tabla:estrategias} muestra un resumen comparativo entre distintas estrategias evaluadas, indicando el porcentaje de mejora en tiempo sin activación y el incremento en tiempo con activación comprobando de esta manera la utilidad del procedimiento desarrollado.
+
+Un desafío encontrado en este estudio fue la implementación de estrategias como Lyapunov, donde el algoritmo no estaba desarrollado previamente y fue necesario generarlo desde su base teórica. Además, la adaptación de los algoritmos en los PLCs presentó limitaciones debido a la falta de funciones matemáticas como la exponencial, lo que requirió aproximaciones mediante series de Taylor para su implementación.
 
 \section{Conclusiones}
 La aplicacion del procedimiento de benchmarking desarrollado demuestra que las estrategias de CBE representan una alternativa viable y eficiente frente al control periódico en entornos industriales con recursos compartidos. La reducción en la cantidad de activaciones del actuador permite extender la vida útil de los dispositivos y mejorar la eficiencia al reducir los calculos computacionales sin afectar significativamente el rendimiento del sistema.
@@ -232,12 +237,15 @@ Se concluye que la estrategia SoD es particularmente adecuada para aplicaciones 
 
 Estudios en actuadores indican que reducir las activaciones en un 40-50\% puede aumentar su vida útil en 2-3 años en operación continua. Nuestros resultados con SoD y WOS (45-52\% de reducción) sugieren beneficios significativos en mantenimiento preventivo.
 
-A pesar de los resultados positivos, este estudio presenta algunas limitaciones. La implementaci\'on de estrategias de CBE en entornos industriales puede requerir ajustes adicionales para adaptarse a distintos procesos. Adem\'as, el an\'alisis se realiz\'o en escenarios espec\'ificos y podr\'ia ser ampliado a sistemas m\'as complejos.
+A pesar de los resultados positivos, este estudio presenta algunas limitaciones.
+
+Se determinó que el rendimiento de los CBE depende no solo del algoritmo de control, sino también de los recursos computacionales disponibles en la plataforma de implementación. En particular, la ausencia de ciertas funciones matemáticas en los PLCs exigió el desarrollo de soluciones alternativas, como la aproximación de la función exponencial mediante series de Taylor. Además, la discrepancia inicial entre las simulaciones y la implementación física resaltó la importancia de modelar correctamente fenómenos como la zona muerta y la saturación de actuadores. La corrección de estos aspectos en la simulación permitió obtener resultados más representativos del comportamiento real del sistema, validando así la efectividad del procedimiento de benchmarking.
+
+La implementaci\'on de estrategias de CBE en entornos industriales puede requerir ajustes adicionales para adaptarse a distintos procesos. Adem\'as, el an\'alisis se realiz\'o en escenarios espec\'ificos y podr\'ia ser ampliado a sistemas m\'as complejos.
 
 La aplicaci\'on del CBE en la industria tiene un gran potencial para optimizar el consumo de recursos computacionales y extender la vida \'util de los actuadores. Este procedimiento de benchmarking proporciona una metodolog\'ia para evaluar la viabilidad de estas estrategias en distintos entornos industriales.
 
-Como trabajo futuro, se plantea la exploración de técnicas adaptativas para la actualización en tiempo real de los parámetros de la condición de evento, con el fin de mejorar la robustez y adaptabilidad de las estrategias CBE en entornos industriales reales.
-
+Para futuras investigaciones, se recomienda ampliar la validación a sistemas industriales adicionales, incorporando nuevas estrategias de CBE con enfoques híbridos y técnicas de aprendizaje automático para mejorar la adaptabilidad de los controladores. Asimismo, se sugiere explorar algoritmos de optimización automática para el codiseño de los parámetros de control en tiempo real, con el objetivo de maximizar la eficiencia de los sistemas bajo control basado en eventos.
 
 %\section*{Referencias}
 \begin{thebibliography}{99}

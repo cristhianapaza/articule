@@ -1,6 +1,6 @@
-PWD D:\Nueva carpeta\CB\9no semestre\ETN-1034\Archivos_control basado en eventos\articulos\sumarizeproject
+PWD D:\KLAB\articule
 INPUT C:\Users\HP\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT d:\Nueva carpeta\CB\9no semestre\ETN-1034\Archivos_control basado en eventos\articulos\sumarizeproject\prueba.tex
+INPUT d:\KLAB\articule\prueba.tex
 OUTPUT prueba.log
 INPUT C:\Users\HP\AppData\Local\Programs\MiKTeX\tex\latex\ieeetran\IEEEtran.cls
 INPUT C:\Users\HP\AppData\Local\Programs\MiKTeX\tex\latex\ieeetran\IEEEtran.cls

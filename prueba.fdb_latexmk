@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1742748736.53576 "d:/Nueva carpeta/CB/9no semestre/ETN-1034/Archivos_control basado en eventos/articulos/sumarizeproject/prueba.tex" "prueba.pdf" "prueba" 1742748740.8382 0
+["pdflatex"] 1743194974.2302 "d:/KLAB/articule/prueba.tex" "prueba.pdf" "prueba" 1743194979.83375 0
   "C:/Users/HP/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1741305507.49797 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/HP/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1741191192.59951 12034677 2167ed098b6787d116ac21969c43e49a ""
   "C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 1194fb36dfcb11d9ae9802f2b00b60a3 ""
@@ -103,15 +103,15 @@
   "C:/Users/HP/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657800696 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "C:/Users/HP/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1730400552 14552 27664839421e418b87f56fa4c6f66b1a ""
   "C:/Users/HP/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "d:/Nueva carpeta/CB/9no semestre/ETN-1034/Archivos_control basado en eventos/articulos/sumarizeproject/prueba.tex" 1742748733.54553 22203 b8d5695d4d953c974677efbf15dc4412 ""
-  "eventvsperiod.jpg" 1741309276.31861 49229 d6bcbe0604c8903c6262cbcf97bc967e ""
-  "ladderevent.jpg" 1741323028.66165 70638 50357fb0b3af4a96d1f8c457c5dee3d4 ""
-  "prueba.aux" 1742748739.99203 5785 07ce6da8d93896f3eaa2bfb092ee642a "pdflatex"
-  "prueba.out" 1742748739.99895 2026 b2fe3bd51d068df09c1e8128d00eb38c "pdflatex"
-  "sim_sod.jpg" 1741322184.45393 34509 a65f2a3322444997a00a0ae97633816b ""
-  "sistema_nivel.jpg" 1742744829.1804 41123 b0a1bd77c1300ad708ec8379c2b9de45 ""
-  "sodfisico.jpg" 1741323258.18569 66534 9a5c833294842ef956376c437e485d5e ""
-  "unid_select.jpg" 1742744892.01591 11415 e3cefa09c465d07af84c558e79bdf6f0 ""
+  "d:/KLAB/articule/prueba.tex" 1743194957.83894 24660 c3361e00a6d09902d7161ae1e8198c70 ""
+  "eventvsperiod.jpg" 1743186372.77349 49229 d6bcbe0604c8903c6262cbcf97bc967e ""
+  "ladderevent.jpg" 1743186372.77649 70638 50357fb0b3af4a96d1f8c457c5dee3d4 ""
+  "prueba.aux" 1743194978.85949 5785 05f7bf7256893cd90f60a4929afed78b "pdflatex"
+  "prueba.out" 1743194978.87178 2026 b2fe3bd51d068df09c1e8128d00eb38c "pdflatex"
+  "sim_sod.jpg" 1743186372.85159 34509 a65f2a3322444997a00a0ae97633816b ""
+  "sistema_nivel.jpg" 1743186372.85972 41123 b0a1bd77c1300ad708ec8379c2b9de45 ""
+  "sodfisico.jpg" 1743186372.86176 66534 9a5c833294842ef956376c437e485d5e ""
+  "unid_select.jpg" 1743186372.86176 11415 e3cefa09c465d07af84c558e79bdf6f0 ""
   (generated)
   "prueba.aux"
   "prueba.log"
