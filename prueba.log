@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.3.5)  28 MAR 2025 16:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.3.5)  10 APR 2025 18:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -488,33 +488,34 @@ Underfull \vbox (badness 4001) has occurred while \output is active []
 
 
 [3 <./sim_sod.jpg> <./ladderevent.jpg> <./sodfisico.jpg>]
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 229.
+ (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
 
 
 
 [4]
-** WARNING: Ignoring useless \section in Appendix (line 274).
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 276.
-(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-Overfull \hbox (50.39978pt too wide) in paragraph at lines 301--301
+** WARNING: Ignoring useless \section in Appendix (line 276).
+
+
+
+Overfull \hbox (50.39978pt too wide) in paragraph at lines 303--303
 []    \OT1/pcr/m/n/7 % Recorre el rango de elim y hmax para encontrar los valores []optimos[] 
  []
 
 
-Overfull \hbox (25.1998pt too wide) in paragraph at lines 301--301
+Overfull \hbox (25.1998pt too wide) in paragraph at lines 303--303
 []            \OT1/pcr/m/n/7 controlador.simular(); % Simula con los nuevos valores[] 
  []
 
 
-
-
-Overfull \hbox (20.9998pt too wide) in paragraph at lines 301--301
+Overfull \hbox (20.9998pt too wide) in paragraph at lines 303--303
 []            \OT1/pcr/m/n/7 obj.events_values = [obj.events_values, Nro_eventos];[] 
  []
 
 
-Overfull \hbox (20.9998pt too wide) in paragraph at lines 301--301
+Overfull \hbox (20.9998pt too wide) in paragraph at lines 303--303
 []            \OT1/pcr/m/n/7 % Actualizar los valores []optimos si hay menos eventos[] 
  []
 
@@ -540,17 +541,17 @@ Package rerunfilecheck Info: File `prueba.out' has not changed.
 (rerunfilecheck)             Checksum: B2FE3BD51D068DF09C1E8128D00EB38C;2026.
  ) 
 Here is how much of TeX's memory you used:
- 11084 strings out of 473522
- 173628 string characters out of 5716062
- 589976 words of memory out of 5000000
- 34118 multiletter control sequences out of 15000+600000
- 602506 words of font info for 116 fonts, out of 8000000 for 9000
+ 11088 strings out of 473522
+ 173673 string characters out of 5716062
+ 590008 words of memory out of 5000000
+ 34120 multiletter control sequences out of 15000+600000
+ 603021 words of font info for 118 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,11n,79p,828b,528s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on prueba.pdf (5 pages, 443260 bytes).
+Output written on prueba.pdf (5 pages, 444474 bytes).
 PDF statistics:
  208 PDF objects out of 1000 (max. 8388607)
- 51 named destinations out of 1000 (max. 500000)
+ 52 named destinations out of 1000 (max. 500000)
  135 words of extra memory for PDF output out of 10000 (max. 10000000)
 
